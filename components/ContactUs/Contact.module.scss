@@ -1,0 +1,26 @@
+.heading{
+    margin: 2vw 15vw 0vw 15vw;
+}
+
+.main{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    .left{
+        width: 40%;
+        font-size: 3vw;
+        font-style: bold;
+        // letter-spacing: 0.3vw;
+        height: 10vh;
+        margin: auto;
+        text-align: center;
+    }
+    .right{
+        width: 60%;
+        .button{
+            margin: 0vw 15vw 3vw 15vw;
+            width: 28vw;
+        }
+    }
+}
