@@ -26,10 +26,10 @@ export function Contactinfo({ arr }) {
           </div>
         </Group>
         <Text className={classes.body} size="lg">
-          Query : <br></br>{arr.data.query}
+        <b>Query :</b> <br></br>{arr.data.query}
         </Text>
         <Text className={classes.body} size="lg">
-          Message : <br></br> {arr.data.message}
+        <b>Message :</b> <br></br> {arr.data.message}
         </Text>
       </Paper>
     </div>

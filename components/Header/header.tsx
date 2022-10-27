@@ -131,7 +131,7 @@ export function Navbarcomp() {
               </Anchor>
             </Group>
             <Group className={classes.hiddenMobile}>
-              <Button variant="default">{"Let's Talk"}</Button>
+              <Button variant="default">{"Task For Internship"}</Button>
 
             </Group>
             <Burger
@@ -157,10 +157,10 @@ export function Navbarcomp() {
               color={theme.colorScheme === "dark" ? "dark.5" : "gray.1"}
             />
 
-            <Anchor href="#" className={classes.link}>
+            <Anchor href="/" className={classes.link}>
               Conact Us / Query page
             </Anchor>
-            <Anchor href="/querries" className={classes.link}>
+            <Anchor href="/queries" className={classes.link}>
               Received Queries
             </Anchor>
             <Anchor href="/quiz" className={classes.link}>
@@ -171,7 +171,7 @@ export function Navbarcomp() {
               color={theme.colorScheme === "dark" ? "dark.5" : "gray.1"}
             />
             <Group position="center" grow pb="xl" px="md">
-              <Button variant="default">{"Let's Talk"}</Button>
+              <Button variant="default">{"Task For Internship"}</Button>
             </Group>
           </ScrollArea>
         </Drawer>
