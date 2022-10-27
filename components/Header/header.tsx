@@ -116,19 +116,19 @@ export function Navbarcomp() {
               spacing={0}
               className={classes.hiddenMobile}
             >
-              <a href="/login" className={classes.link}>
+              <Anchor href="/login" className={classes.link}>
                 Login
-              </a>
+              </Anchor>
               <Anchor href="/" className={classes.link}>
                 Conact Us / Query page
               </Anchor>
-              <a href="/queries" className={classes.link}>
+              <Anchor href="/queries" className={classes.link}>
                 Received Queries
-              </a>
+              </Anchor>
 
-              <a href="/quiz" className={classes.link}>
+              <Anchor href="/quiz" className={classes.link}>
                 Quiz Page
-              </a>
+              </Anchor>
             </Group>
             <Group className={classes.hiddenMobile}>
               <Button variant="default">{"Let's Talk"}</Button>
@@ -157,15 +157,15 @@ export function Navbarcomp() {
               color={theme.colorScheme === "dark" ? "dark.5" : "gray.1"}
             />
 
-            <a href="#" className={classes.link}>
+            <Anchor href="#" className={classes.link}>
               Conact Us / Query page
-            </a>
-            <a href="/querries" className={classes.link}>
+            </Anchor>
+            <Anchor href="/querries" className={classes.link}>
               Received Queries
-            </a>
-            <a href="/quiz" className={classes.link}>
+            </Anchor>
+            <Anchor href="/quiz" className={classes.link}>
               Quiz Page
-            </a>
+            </Anchor>
             <Divider
               my="sm"
               color={theme.colorScheme === "dark" ? "dark.5" : "gray.1"}
